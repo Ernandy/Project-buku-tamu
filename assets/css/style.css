@@ -1,0 +1,12 @@
+:root { --instansi: #0b3a6f; --instansi-gelap: #082b53; }
+body { background: #f5f7fa; font-family: "Segoe UI", Arial, sans-serif; }
+.bg-instansi { background-color: var(--instansi) !important; }
+.btn-instansi { background: var(--instansi); color: #fff; }
+.btn-instansi:hover { background: var(--instansi-gelap); color: #fff; }
+.section-title { color: var(--instansi); font-weight: 600; margin-bottom: 1rem;
+  padding-bottom: .5rem; border-bottom: 3px solid #c9a227; display: inline-block; }
+.banner-img { height: 360px; object-fit: cover; }
+.avatar { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; }
+.avatar-placeholder { background: var(--instansi); color: #fff; display: inline-flex;
+  align-items: center; justify-content: center; font-weight: 600; }
+@media (max-width: 576px) { .banner-img { height: 200px; } }
